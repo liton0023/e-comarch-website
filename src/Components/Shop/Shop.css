@@ -1,9 +1,18 @@
 .shop-container {
   display: grid;
   grid-template-columns: 4fr 1fr;
+  padding-top: 5rem;
 }
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
+}
+.cart-container {
+  width: 90%;
+  position: sticky;
+  height: 28rem;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  top: 0;
 }

@@ -1,0 +1,18 @@
+.cart-info p,
+h3 {
+  margin: 2rem;
+}
+.summary-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.summary-btn button {
+  width: 80%;
+  height: 2rem;
+  background-color: orange;
+  border: none;
+  border-radius: 0px 0px 8px 8px;
+}

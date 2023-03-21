@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './product.css';
 const Product = (props) => {
@@ -13,7 +14,10 @@ const Product = (props) => {
             <p>Price:${price}</p>
            </div>
            
-            <button className='cart-btn' onClick={()=>props.handelAddToCart(props.product)}>Add To Cart</button>
+          <div>
+          <button className='cart-btn' onClick={()=>props.handelAddToCart(props.product)}>Add To Cart</button>
+          
+          </div>
 
         </div>
     );
