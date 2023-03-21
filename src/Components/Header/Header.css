@@ -1,0 +1,27 @@
+nav {
+  width: 100%;
+}
+
+.header {
+  background-color: #1c2b35;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 140px;
+  color: #fff;
+  height: 4rem;
+  color: wheat;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+}
+.Header-link {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+}

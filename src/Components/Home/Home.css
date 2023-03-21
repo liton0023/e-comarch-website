@@ -1,0 +1,31 @@
+.home-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  margin-top: 10rem;
+  margin-left: 5rem;
+}
+.home-page p {
+  color: #ff9900;
+}
+.home-blog h3 {
+  font-size: 2rem;
+  color: #1c2b35;
+}
+.home-blog h5 {
+  font-size: 1rem;
+  color: #1c2b35;
+}
+.img-section img {
+  width: 60%;
+  border-left: 10px solid salmon;
+  border-bottom: 10px solid salmon;
+}
+.btn {
+  font-size: 1.5rem;
+  width: 203px;
+  height: 56px;
+  background-color: #ff9900;
+  border-radius: 10px;
+}
